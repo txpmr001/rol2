@@ -1,0 +1,55 @@
+Straight HTML, CSS, javascript version of Rule of Life.
+
+
+Created boilerplate CSS to set:
+(https://www.element84.com/blog/responsive-typography)
+
+  box sizing
+
+  default font, font size, line height
+
+  page width breakpoints for phone, small, medium, large, and xl devices
+
+  body font size and heading font size adjustments based on page width
+
+
+Added dropdown menu, right aligned.
+(https://www.w3schools.com/howto/howto_js_dropdown.asp)
+
+
+Added table of contents overlay.
+(https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp)
+(https://stackoverflow.com/questions/9280258/prevent-body-scrolling-but-allow-overlay-scrolling)
+
+
+Added goto page overlay.
+
+
+Added change fontsize modal.
+(https://www.w3schools.com/howto/howto_css_modals.asp)
+
+
+Added css for basic buttons.
+(https://www.w3schools.com/css/css3_buttons.asp)
+
+
+Consolidated handling of menu and button clicks into javacript functions
+handleMenu(id) and handleButton(id) using switch statements.
+(w3schools.com/js/js_switch.asp)
+
+
+Notes on dropdown menus and modals:
+
+  Dropdown buttons toggle menu display.  When a dropdown menu is visible,
+  any click on or outside the dropdown will cause function window.onclick
+  to close the dropdown.
+
+  Overlays are displayed through dropdown menu items.  A click on any overlay link
+  or the close button closes the overlay directly through function handleButton.
+
+  Modals are displayed through dropdown menu items.  A click on the modal background
+  (outside the modal content) causes function window.onclick to close the modal.
+  The close button closes the modal directly through function handleButton.
+
+
+
